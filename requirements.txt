@@ -1,0 +1,5 @@
+pandas
+enum
+plotly
+plotly.graph_objects
+streamlit
