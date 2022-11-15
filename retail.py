@@ -10,7 +10,6 @@ st.header("Philippine Retail Prices (2012-2021)")
 
 #loading data
 goods_annual_df = pd.read_csv("goods_annual.csv", encoding="ISO-8859-1", index_col=0)
-goods_monthly_df = pd.read_csv("goods_monthly.csv", encoding="ISO-8859-1", index_col=0)
 
 #selection
 commodities = goods_annual_df['Commodity Type'].unique().tolist()
